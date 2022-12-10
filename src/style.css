@@ -1,0 +1,88 @@
+*,
+*::before,
+*::before {
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-size:0.875rem;
+line-height:1.6;
+font-weight:400;
+}
+
+.main{
+  width: 90%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+th{
+  background: #424242;
+  color: #fff;
+  font-weight: 700;
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #fff
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+td{
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #dadada;
+}
+
+
+.d-flex{
+  display: flex;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
+.btn{
+    padding: 0.65em 1em;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 0.25rem!important;
+    cursor: pointer;
+    transition: all linear 0.3s;
+ box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+ float: right;
+}
+
+.selector{
+  width: 97%;
+  top: 49px;
+  height: auto;
+  background-color: #fff;
+  z-index: 100;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.pos-rel{
+  position: relative;
+}
+.pos-abs{
+  position: absolute;
+}
+.selector-ul{
+  list-style: none;
+}
+.selector-btn{
+  width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+.selector-btn:hover{
+  background-color: #dadcf6;
+}
